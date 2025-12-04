@@ -20,8 +20,8 @@ const Telephoto = () => {
 
     return (
         <div className='container mx-auto'>
-            <div className="text-[#c5bdbdd3] w-[50%] text-center mx-auto mt-5">
-                <p>
+            <div className="text-[#c5bdbdd3] w-[90%] md:w-[50%] text-center mx-auto mt-5">
+                <p className="text-1xl md:text-lg">
                     Across the iPhone 17 Pro camera system, you’ll find
                     innovation that goes to great lengths. The telephoto
                     features the next generation of our tetraprism design
@@ -34,7 +34,7 @@ const Telephoto = () => {
                 </p>
             </div>
 
-            <div className="min-h-screen w-full flex flex-col items-center justify-center bg-black text-white p-6">
+            <div className="md:min-h-0 w-full flex flex-col items-center justify-center bg-black text-white p-6">
                 <div className="relative w-full max-w-5xl aspect-video overflow-hidden rounded-xl shadow-xl">
                     <Image
                         src={images[current]}

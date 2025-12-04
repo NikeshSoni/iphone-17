@@ -113,14 +113,14 @@ export default function IPhoneThermalShowcase() {
 
     return (
         <div className="min-h-screen bg-[#1d1d1f] text-white mx-auto p-4">
-            <div className="bg-black rounded-4xl p-4 mx-auto  w-[80%]">
-                <div className='w-[90%] mx-auto mt-4'>
+            <div className="bg-black rounded-sm md:rounded-4xl p-4 mx-auto w-[100%] md:w-[90%] lg:w-[80%]">
+                <div className='w-[100%] mx-auto mt-4'>
                     <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>
                         Take a closer look.
                     </h1>
                 </div>
                 <div className="md:flex justify-center items-center">
-                    <div className="md:relative w-[90%]  flex justify-center">
+                    <div className="md:relative w-[100%]  flex justify-center">
                         {/* Mobile Image - shows reponsiveImg */}
                         <img
                             src={getCurrentResponsiveImage()}

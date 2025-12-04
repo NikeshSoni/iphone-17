@@ -11,7 +11,7 @@ const Dashboard = () => {
     </div>
     
     <div className="relative w-full max-w-7xl mx-auto mt-2 lg:mt-3">
-        <div className="aspect-[4/3] md:aspect-[3/2] lg:aspect-[16/9] relative mb-16 sm:mb-20 md:mb-24 lg:mb-0">
+        <div className="aspect-[4/3] md:aspect-[3/2] lg:aspect-[16/9] relative mb-0 sm:mb-20 md:mb-24 lg:mb-0">
             <Image 
                 src="/hero__bdntboqignj6_xlarge_2x.jpg"  
                 alt="iPhone 17 Pro" 

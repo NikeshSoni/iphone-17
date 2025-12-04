@@ -71,15 +71,15 @@ export default function PhoneCarousel() {
 
             <div className="w-full container relative z-10">
                 {/* Title */}
-                <div className="container mb-16">
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-tight">
+                <div className="container mb-10 md:mb-16">
+                    <h1 className="text-2xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-tight">
                         Heat-forged aluminium
                         <br />
                         <span className="font-medium bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                             unibody design
                         </span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-gray-300 font-light">
+                    <p className="text-[1rem] md:text-2xl text-gray-300 font-light">
                         Exceptional pro capability meets elegant craftsmanship
                     </p>
                 </div>
@@ -101,15 +101,14 @@ export default function PhoneCarousel() {
                         </div>
                     </div>
 
-                    {/* Data Section - 60% */}
                     <div className="w-full lg:w-3/5 max-w-md lg:max-w-none space-y-8">
                         {/* Color Info */}
                         <div className="text-center lg:text-left">
                             <p className="text-gray-400 text-sm font-medium mb-2">AVAILABLE IN</p>
-                            <h2 className="text-3xl md:text-4xl font-semibold text-white mb-2">
+                            <h2 className="text-2xl md:text-4xl font-semibold text-white mb-2">
                                 {currentPhone.color}
                             </h2>
-                            <p className="text-gray-300 text-lg">
+                            <p className="text-gray-300  text-[0.8rem] md:text-lg">
                                 {currentIndex + 1} of {phones.length} finishes
                             </p>
                         </div>
