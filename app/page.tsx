@@ -5,6 +5,8 @@ import Design from "./Design/page";
 import IPhoneThermalShowcase from "./closerLook/page";
 import Zoom from "./zoom/page";
 import Telephoto from "./Telephoto/page"
+import Lenses from "./lenses/page"
+import FrontCamerr from "./frontCamera/page"
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
        <IPhoneThermalShowcase />
        <Zoom />
        <Telephoto />
+       <Lenses />
+       <FrontCamerr />
     </div>
   );
 }
