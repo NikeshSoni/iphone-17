@@ -32,7 +32,7 @@ const Lenses = () => {
     return (
 
         <div className="container mx-auto mt-10">
-            <div className='text-center text-white max-w-[60%] mx-auto'>
+            <div className='text-center text-white w-[80%] md-w-[60%] mx-auto'>
                 <h1 className='text-[#86868b]'>
                     Like having <span>8 pro lenses in your pocket.</span> Super-high-resolution
                     <span>24MP photos by default.</span>
@@ -41,7 +41,6 @@ const Lenses = () => {
                     With the new iPhone 17 Pro, you can zoom in closer than ever before. The 8x optical-quality zoom is like having 8 pro lenses in your pocket. And with the new 24MP photos by default, you can capture even more detail.
                 </p>
             </div>
-
             <div className='my-5'>
                 <Image
                     src="/lenses/rear_camera__c9hqca901ugm_xlarge_2x.jpg"

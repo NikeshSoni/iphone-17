@@ -112,7 +112,7 @@ export default function IPhoneThermalShowcase() {
     };
 
     return (
-        <div className="min-h-screen bg-[#1d1d1f] text-white mx-auto p-4">
+        <div className="bg-[#1d1d1f] text-white mx-auto p-4">
             <div className="bg-black rounded-sm md:rounded-4xl p-4 mx-auto w-[100%] md:w-[90%] lg:w-[80%]">
                 <div className='w-[100%] mx-auto mt-4'>
                     <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>
